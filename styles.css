@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000; /* Fondo negro */
+    color: white; /* Texto blanco */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2.title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: yellow; /* Amarillo */
+}
+
+header.content.header p {
+    text-align:center ;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    padding: 20px;
+    max-width: 800px;
+    
+}
+
+p {
+    text-align:center ;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000; /* Fondo negro */
+    color: #f1c40f; /* Amarillo */
+}
+
+.head .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; /* Amarillo */
+}
+
+.navbar a {
+    margin: 0 10px;
+    font-size: 1rem;
+    color: yellow; /* Amarillo */
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffffff; /* Rojo */
+}
+
+/* Header Content */
+header.content {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #111; /* Negro oscuro */
+    color: white; /* Amarillo */
+}
+
+header .btn-home .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff0000; /* Rojo */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header .btn-home .btn:hover {
+    background-color: #f1c40f; /* Amarillo */
+}
+
+/* About Section */
+.content.sau {
+    padding: 40px 20px;
+    background-color: #222; /* Negro grisáceo */
+}
+
+.content.sau .box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.content.sau .box {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+    background-color: #333; /* Negro medio */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.content.sau .box:hover {
+    transform: translateY(-10px);
+    background-color: black; /* Rojo */
+}
+
+.content.sau .box i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: red; /* Amarillo */
+}
+
+.content.sau .box h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: rgb(255, 255, 255); /* Rojo */
+}
+
+/* Other Sections */
+.content.about, .content.price, .content.contact {
+    padding: 40px 20px;
+}
+
+.content.about, .content.price {
+    background-color: #000; /* Negro oscuro */
+}
+
+.content.contact {
+    background-color: #111; /* Negro grisáceo */
+}
+
+.content.contact .imagen img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #111; /* Rojo */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f1c40f; /* Amarillo */
+}
+
+figure.imagen{
+    display:flex;
+}
